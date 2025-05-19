@@ -2,8 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Permission {
+
+    // Please note all details are only examples
     private int permissionID;
-    private int roleID; // Changed from permissionRole to roleID for clarity
+    private int roleID; 
     private String permissionDescription;
     private static List<Permission> permissions = new ArrayList<>();
 
